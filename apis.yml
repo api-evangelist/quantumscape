@@ -1,8 +1,24 @@
 aid: quantumscape
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantumscape.png
 name: Quantumscape
-description: Quantumscape is a company surfaced as a portfolio company of khosla-ventures, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: QuantumScape is a battery technology company developing next-generation solid-state
+  lithium-metal batteries for electric vehicles and energy storage. Its anode-free cell design aims to
+  deliver greater energy density, faster charging, longer life, and improved safety versus conventional
+  lithium-ion cells, while simplifying manufacturing and lowering cost. The company was surfaced as a
+  portfolio company of Khosla Ventures and Lightspeed Venture Partners and added to the API Evangelist
+  network. It publishes a corporate website, blog, and investor relations resources but no public
+  developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/quantumscape/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Battery
+- Solid-State Batteries
+- Energy Storage
+- Electric Vehicles
+- Clean Energy
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/quantumscape-domain-security.yml
 - type: Website
   url: https://www.quantumscape.com/
+- type: Blog
+  url: https://www.quantumscape.com/blog/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
